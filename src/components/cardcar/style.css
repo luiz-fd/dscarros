@@ -1,0 +1,64 @@
+
+.dsct-container-cars {
+    max-width: 746px;
+    height: 802px;
+    margin: 25px auto;
+  }
+  
+.dsct-container-cars h1 {
+    color: var(--dsct-color-font-secondary);
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+}
+  
+.dsct-container-card-car {
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto auto auto;
+    max-width: 746px;
+    height: 352px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    border-color: var(--dsct-color-border-primary);
+}
+
+.dsct-container-card-car img {
+    width: 391px;
+    margin: auto 177px;
+}
+
+.dsct-container-card-car p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    align-self: center;
+}
+
+@media (max-width: 450px) {
+
+    .dsct-container-cars h1 {
+        color: var(--dsct-color-font-secondary);
+        font-size: 20px;
+        line-height: 30x;
+    }
+
+    .dsct-container-card-car {
+        margin: 25px auto auto auto;
+        max-width: 280px;
+        height: 248px;
+    }
+
+    .dsct-container-card-car img {
+        width: 260px;
+        margin: auto 10px;;
+    }
+
+    .dsct-container-card-car p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+}
