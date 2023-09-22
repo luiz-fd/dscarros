@@ -38,6 +38,9 @@
 }
 
 @media (max-width: 450px) {
+    .dsct-container-cars {
+        height: 576px;
+      }
 
     .dsct-container-cars h1 {
         color: var(--dsct-color-font-secondary);
