@@ -27,19 +27,24 @@
 
 .dsct-container-card-car img {
     width: 391px;
-    margin: auto 177px;
+    height: 292px;
+    margin: 20px 177px 0px 177px;
+    border: 1px solid #000;
 }
 
 .dsct-container-card-car p {
+    color: var(--dsct-color-font-secondary);
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
+    margin-top: 10px;
     align-self: center;
 }
 
 @media (max-width: 450px) {
     .dsct-container-cars {
-        height: 576px;
+        min-height: 576px;
+        height:auto;
       }
 
     .dsct-container-cars h1 {
